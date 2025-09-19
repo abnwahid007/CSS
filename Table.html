@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Table</title>
+    <style>
+        table,tr,td,th{
+            border: 1px solid black;
+            border-collapse: collapse;
+            text-align: center;
+        }
+        #name{
+           color: aqua; 
+        }
+    </style>
+</head>
+<body>
+    <table>
+        <tr>
+            <th id="name" colspan="7"> Time Table </th>            
+        </tr>
+
+        <tr>
+            <th rowspan="6">Hours</th>
+            <th>Mon</th>
+            <th>Tue</th>
+            <th>Wed</th>
+            <th>Thu</th>
+            <th>Fri</th>
+        </tr>
+        <tr>
+            <td>Sci</td>
+            <td>Math</td>
+            <td>art</td>
+            <td>Bio</td>
+            <td>chem</td>
+        </tr>
+        <tr>
+            <td>Sci</td>
+            <td>Geometry</td>
+            <td>art</td>
+            <td>Biology</td>
+            <td>chem</td>
+        </tr>
+        <tr>
+            <th colspan="6">Lunch</th>
+            
+        </tr>
+        <tr>
+            <td>Sci</td>
+            <td>Math</td>
+            <td>History</td>
+            <td>Bio</td>
+            <td rowspan="2">Project</td>
+        </tr>
+        <tr>
+            <td>Science</td>
+            <td>Math</td>
+            <td>art</td>
+            <td>Bio</td>
+            
+        </tr>
+    </table>
+</body>
+</html>

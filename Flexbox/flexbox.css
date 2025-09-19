@@ -1,0 +1,15 @@
+.container{
+    height: 500px;
+    width: 500px;
+    border: 2px solid black;
+    display: flex;
+    justify-content: center;
+    align-items:center ;
+    flex-wrap: wrap;
+    gap: 10px;
+
+}
+.box{
+    border: 1px solid green;
+    background-color: blueviolet;
+}

@@ -1,0 +1,38 @@
+#container{
+    background-color: yellowgreen;
+    height: 1000px;
+    width: 1500px;
+}
+
+#mydiv{
+    position: absolute;
+    display: flex;
+    height: 500px;
+    width: 500px;
+    border: 1px solid black;
+}
+#Middle{
+    position: relative;
+    top: 200px;
+}
+#top_right{
+    position: relative;
+    left: 300px;
+}
+#bottom_left{
+    text-align: center;
+    position: relative;
+    right: 300px;
+    top: 400px;
+}
+#bottom_right{
+    position: relative;
+    top: 400px;
+}
+.box{
+    justify-content: center;
+    align-items: center;
+    border: 1px solid black;
+    height: 100px;
+    width: 100px;
+}
