@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>CrossTalk AI</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-900 text-gray-100 flex flex-col h-screen">
+
+  <!-- Header -->
+  <header class="bg-gray-800 p-4 text-center text-xl font-semibold shadow">
+    CrossTalk AI
+  </header>
+
+  <!-- Chat Area -->
+  <main id="chat-container"
+        class="flex-1 overflow-y-auto p-4 space-y-4">
+    <!-- Messages will be appended here -->
+  </main>
+
+  <!-- Input Area -->
+  <footer class="bg-gray-800 p-4">
+    <div class="max-w-3xl mx-auto flex items-center space-x-2">
+      <input id="chat-input"
+             type="text"
+             placeholder="Type your message..."
+             class="flex-1 rounded-xl border border-gray-700 bg-gray-700 text-gray-100 px-4 py-2 focus:outline-none focus:ring-2 focus:ring-indigo-500"/>
+      <button id="send-btn"
+              class="px-4 py-2 bg-indigo-600 hover:bg-indigo-700 rounded-xl font-medium">
+        Send
+      </button>
+    </div>
+  </footer>
+
+  <script src="app.js"></script>
+</body>
+</html>
